@@ -1,10 +1,14 @@
 # Median Coffee Report 
 ## Отчет о потреблении кофе.
 
-
+### Запуск проекта
+Команда 
 ```bash
 python main.py --files data/programming.csv data/math.csv data/physics.csv --report median-coffee
+```
 
+Пример вывода отчета в терминал
+```bash
 +-------------------+-----------------+
 | Student           |   Median coffee |
 +===================+=================+
