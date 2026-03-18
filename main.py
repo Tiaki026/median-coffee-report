@@ -3,7 +3,7 @@ import sys
 
 from tabulate import tabulate
 
-from reports.coffee_report import get_report
+from coffee_report.coffee_report import get_report
 
 
 def main():

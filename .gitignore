@@ -36,7 +36,7 @@ MANIFEST
 pip-log.txt
 pip-delete-this-directory.txt
 
-# Unit test / coverage reports
+# Unit test / coverage coffee_report
 htmlcov/
 .tox/
 .nox/
@@ -143,9 +143,9 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+.idea
 
 # Spyder project settings
-.spyderproject
 .spyproject
 
 # Rope project settings
