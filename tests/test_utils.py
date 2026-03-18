@@ -78,7 +78,7 @@ def test_read_csv_files_file_not_found():
     """
 
     with pytest.raises(
-            FileNotFoundError, match="Файл не найден: no_exist.csv"
+        FileNotFoundError, match="Файл не найден: no_exist.csv"
     ):
         read_csv_files(["no_exist.csv"])
 

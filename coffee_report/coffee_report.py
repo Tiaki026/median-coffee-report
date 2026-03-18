@@ -36,7 +36,7 @@ REPORTS = {
 
 
 def get_report(report_name: str) -> Callable:
-    """Возвращает функцию отчёта по имени или выбрасывает KeyError."""
+    """Возвращает функцию отчёта или выбрасывает KeyError."""
 
     if report_name not in REPORTS:
         raise KeyError(
